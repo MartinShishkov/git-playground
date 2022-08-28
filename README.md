@@ -24,6 +24,8 @@ Press the `I` key to enter INSERT mode, enter your message, then press the ESC k
 # Logging/Info
 Which branch I'm currently on? - `git branch`
 
+Display repository as a visual graph? - `git log --graph --oneline --branches`
+
 # Interactive rebase
 ## Squashing commits
 We can create as many commits in our branch as we want, but when we're done with our work, it's a good idea to squash them into a single commit so that the repo does not get polluted with lots of unnecessary commits.
