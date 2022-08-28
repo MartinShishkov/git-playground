@@ -12,8 +12,6 @@ Discard ALL unstaged changes `git checkout -- .`
 
 Discard specific unstaged change `git checkout -- <filename>`
 
-Which branch I'm currently on? - `git branch`
-
 Create a new branch? - `git branch <branch-name>`
 
 Want to make a fast commit? - `git commit -m "Your commit message"`
@@ -23,6 +21,12 @@ There's a shortcut if we want to execute `git add .` followed by `git commit -m 
 ## Command-line text editor
 Press the `I` key to enter INSERT mode, enter your message, then press the ESC key to exit INSERT mode and type :wq to quit and save the editor.
 
+# Logging/Info
+Which branch I'm currently on? - `git branch`
+
+Display repository as a visual graph? - `git log --graph --oneline --branches`
+
+Display HEAD commit and current branch? - `git log`
 
 # Interactive rebase
 ## Squashing commits
