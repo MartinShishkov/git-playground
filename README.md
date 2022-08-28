@@ -26,6 +26,8 @@ Which branch I'm currently on? - `git branch`
 
 Display repository as a visual graph? - `git log --graph --oneline --branches`
 
+Display HEAD commit and current branch? - `git log`
+
 # Interactive rebase
 ## Squashing commits
 We can create as many commits in our branch as we want, but when we're done with our work, it's a good idea to squash them into a single commit so that the repo does not get polluted with lots of unnecessary commits.
