@@ -8,3 +8,6 @@ To stage ALL unstaged files we can execute `git add .`, if we want to stage only
 
 To unstage ALL staged files execute `git reset`
 
+Discard ALL unstaged changes `git checkout -- .`
+
+Discard specific unstaged change `git checkout -- <filename>`
